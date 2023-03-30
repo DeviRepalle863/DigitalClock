@@ -1,0 +1,63 @@
+body{
+    margin:0;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height:100vh;
+    justify-content:center;
+    font-family: 'poppins' sans-serif;
+    background: url('https://rare-gallery.com/uploads/posts/11655-full-hd-1080p-nature-wallpapers-desktop-backgrounds-hd__full-hd-1080p-nature-wallpapers-desktop-backgrounds-hd.jpg');
+    background-size: cover;
+    overflow: hidden;
+}
+
+    h2{
+        text-transform:uppercase;
+        color:darkorange;
+        letter-spacing: 4px;
+        font-size: 30px;
+        text-align: center;
+        background:white;
+        font-style:unset;
+    }
+
+    .Clock{
+        display:flex;
+    }
+
+    .Clock div{
+        margin:6px;
+        position: relative;
+    }
+
+    .Clock span{
+        height:80px;
+        width:100px;
+        background: slateblue;
+        opacity: .9;
+        color:#ffff;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 60px;
+        text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    }
+
+    .Clock .text{
+        height:30px;
+        font-size: 10px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        background: darkblue;
+        opacity:0.8;
+}
+
+.Clock #ampm{
+    bottom:0;
+    position: absolute;
+    width:60px;
+    height: 50px;
+    font-size: 30px;
+    background:rgb(45, 27, 128);
+
+}
